@@ -5,6 +5,7 @@ typedef struct{
     int class;
     char SEC;
 }Student;
+// using pass by refrence . saves a ton of memory and fast
 void main(Student *pstu){
     pstu->rollno = 23;
     pstu->class = 10;

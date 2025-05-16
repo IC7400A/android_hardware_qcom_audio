@@ -1,4 +1,5 @@
 #include <stdio.h>
+//even odd using macro
 #define isEven(x) ((x) % 2 == 0)
 int main(void){
     int num = scanf("%d", &num);

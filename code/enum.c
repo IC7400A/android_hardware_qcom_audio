@@ -14,6 +14,7 @@ void main(){
         printf("Error determining day.");
     }
     else{
+        // From day names array print the index value of today
         printf("%s", day_names[today]);
     }
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Error checking code logic in the AOSP style c 
 enum{
     ERROR_READ = 1,
     ERROR_WRITE = 2,
